@@ -153,7 +153,7 @@ a {
 }
 
 a:hover {
-    color: #000;
+    color: #25BBA7;
 }
 
 h1 a, h2 a, h3 a,
@@ -333,24 +333,6 @@ margin on the iframe, cause it breaks stuff. */
     margin: 0;
 }
 
-img {
-    -webkit-filter: grayscale(1);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    filter: gray;
-    filter: grayscale(100%);
-    filter: url(grayscale.svg#grayscale);
-}
- 
-img:hover {
-    -webkit-filter: grayscale(0);
-    -webkit-filter: grayscale(0%);
-    -moz-filter: grayscale(0%);
-    filter: grayscale(0%);
-    filter: none;
-}
-
-
 /* ==========================================================================
    3. Utilities - These things get used a lot
    ========================================================================== */
@@ -406,10 +388,9 @@ img:hover {
     margin: 0 auto;
     line-height: 0;
     border-style: solid;
-    border-width: 5px;
+    border-width: 3px;
     border-color: #FFF;
-    border-radius: 10px;
-    box-shadow: 0 0 30px #000;
+    border-radius: 100%;
 }
 
 /* The details of your blog. Defined in ghost/settings/ */
